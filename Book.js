@@ -1,34 +1,22 @@
 const mongoose = require('mongoose');
+const connectDB = require('../db');
+const books = require('./Data/Books.json'); 
+const Books = require('../Model/Book'); 
 
+const db = connectDB(); 
+const importData =  async () => {
+    try{
 
-// Book schema is used randomely from internet 
-// Sample Book Json object will be generated from chatGPT for ease 
-const BookSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: true
-  },
-  isbn: {
-    type: String,
-    required: true
-  },
-  author: {
-    type: String,
-    required: true
-  },
-  description: {
-    type: String
-  },
-  published_date: {
-    type: Date
-  },
-  publisher: {
-    type: String
-  },
-  updated_date: {
-    type: Date,
-    default: Date.now
-  }
-});
+        //to clear databse 
+        await Books.deleteMany(); 
 
-module.exports = Book = mongoose.model('book', BookSchema);
+        //to insert new data 
+        await Books.insertMany(books); 
+        process.exit(); 
+    } catch (err) {
+        console.log(`Error is: ${err}`); 
+        process.exit(1); 
+    }
+}
+
+importData(); 

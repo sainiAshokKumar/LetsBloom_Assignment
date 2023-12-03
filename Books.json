@@ -1,0 +1,48 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "isbn": "978-0-7432-7356-5",
+      "author": "F. Scott Fitzgerald",
+      "description": "The story of the fabulously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "published_date": "1925-04-10",
+      "publisher": "Scribner",
+      "updated_date": "2023-12-05T09:30:00.000Z"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "isbn": "978-0-06-112008-4",
+      "author": "Harper Lee",
+      "description": "A novel set in the American South during the 1930s, dealing with the issues of racism and injustice.",
+      "published_date": "1960-07-11",
+      "publisher": "J.B. Lippincott & Co.",
+      "updated_date": "2023-12-05T10:15:00.000Z"
+    },
+    {
+      "title": "1984",
+      "isbn": "978-0-452-28423-4",
+      "author": "George Orwell",
+      "description": "A dystopian novel that explores the dangers of totalitarianism and government surveillance.",
+      "published_date": "1949-06-08",
+      "publisher": "Secker & Warburg",
+      "updated_date": "2023-12-05T11:00:00.000Z"
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "isbn": "978-0-316-76948-0",
+      "author": "J.D. Salinger",
+      "description": "A novel about the experiences of a teenage boy in New York City, grappling with the challenges of adolescence.",
+      "published_date": "1951-07-16",
+      "publisher": "Little, Brown and Company",
+      "updated_date": "2023-12-05T11:45:00.000Z"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "isbn": "978-0-19-953556-9",
+      "author": "Jane Austen",
+      "description": "A classic novel exploring the themes of love, class, and societal expectations in 19th-century England.",
+      "published_date": "1813-01-28",
+      "publisher": "T. Egerton, Whitehall",
+      "updated_date": "2023-12-05T12:30:00.000Z"
+    }
+  ]
+  
